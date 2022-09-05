@@ -1,0 +1,22 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.bg {
+  background-image: url('bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profil {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.ig {
+  text-decoration: none;
+}
+
+.logos {
+  margin-left: 100px;
+}
