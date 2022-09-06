@@ -7,7 +7,7 @@ Web Ini dibuat pada tanggal 31 Agustus 2022 dan Selesai Pada
 A. Front-End + Frame Work + Admin Template
 - HTML 
 - Bootstrap 5.2
-- Focus Admin Template
+- Focus Admin Templates
 
 B. Back-End
 - PHP Native
