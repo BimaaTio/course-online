@@ -15,88 +15,71 @@ if( isset($_POST['submit']) ) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alignleft | Registrasi</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="assets/AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
-  <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="assets/AdminLTE-3.2.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="assets/AdminLTE-3.2.0/dist/css/adminlte.min.css">
+    <title>Focus Admin: Widget</title>
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+
+    <!-- Styles -->
+    <link href="assets/focus/theme/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/focus/theme/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="assets/focus/theme/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/focus/theme/css/lib/helper.css" rel="stylesheet">
+    <link href="assets/focus/theme/css/style.css" rel="stylesheet">
 </head>
-<body class="hold-transition register-page">
-<div class="register-box">
-  <div class="card card-outline card-primary">
-    <div class="card-header text-center">
-      <a href="assets/AdminLTE-3.2.0/index2.html" class="h1"><b>Align</b>left</a>
-    </div>
-    <div class="card-body">
-      <p class="login-box-msg">Buat Akun</p>
 
-      <form action="" method="post">
-        <div class="input-group mb-3">
-          <input type="text" name="fullName" class="form-control" placeholder="Full name" required>
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-user"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" name="username" class="form-control" placeholder="Username" required>
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-user"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="email" name="email" class="form-control" placeholder="Email" required>
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" name="pass" class="form-control" placeholder="Password" required>
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" name="pass2" class="form-control" placeholder="Retype password" required>
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-          <div class="col-4">
-            <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
-          </div>
-          <!-- /.col -->
-        </div>
-      </form>
-      <a href="login.php" class="text-center">Sudah Punya Akun</a>
-    </div>
-    <!-- /.form-box -->
-  </div><!-- /.card -->
-</div>
-<!-- /.register-box -->
+<body class="bg-warning">
 
-<!-- jQuery -->
-<script src="assets/AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="assets/AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="assets/AdminLTE-3.2.0/dist/js/adminlte.min.js"></script>
+    <div class="unix-login">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="login-content">
+                        <div class="login-logo">
+                            <a href="index.html"><span>Alignleft</span></a>
+                        </div>
+                        <div class="login-form">
+                            <h4>Register to Administration</h4>
+                            <form>
+                                <div class="form-group">
+                                    <label>User Name</label>
+                                    <input type="email" class="form-control" placeholder="User Name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Register</button>
+                                <div class="register-link m-t-15 text-center">
+                                    <p>Already have account ? <a href="#"> Sign in</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
